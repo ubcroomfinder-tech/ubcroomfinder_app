@@ -23,7 +23,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # ==========================================
 
 MAX_WORKERS = 8  # Parallel processing threads
-EARLIEST_WEEK = 34  # Parallel processing threads
+EARLIEST_WEEK = 0  # Parallel processing threads
 
 # Compile regex patterns once (significant speedup)
 ROOM_PATTERN = re.compile(r'Location Timetable:\s*([A-Z]+)\s*([A-Z]?\d+[A-Z]?)')
@@ -38,7 +38,7 @@ TIME_PATTERN = re.compile(r'^\d{1,2}:\d{2}$')
 WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 # Change the following to have the correct year
-WEB_URL = 'https://sws-van.as.it.ubc.ca/SWS_2025/'
+WEB_URL = 'https://sws-van.as.it.ubc.ca/SWS_2026/'
 
 # ==========================================
 # ARGUMENT PARSING

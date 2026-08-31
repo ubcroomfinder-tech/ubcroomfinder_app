@@ -41,7 +41,7 @@ Ensure the following tools and access rights are secured before running the scri
     source venv/bin/activate
     
     # Activate the environment (Windows/Command Prompt)
-    .\venv\Scripts\activate
+    ./venv/Scripts/activate
     ```
 
 3.  **Install Dependencies:**
